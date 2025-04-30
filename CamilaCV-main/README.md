@@ -1,2 +1,0 @@
-# CamilaCV
-Camila luna CV 
