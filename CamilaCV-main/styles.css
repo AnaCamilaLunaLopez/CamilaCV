@@ -1,0 +1,321 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  background: #111;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.contact {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.skills ul, .education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .education li {
+  background: #f0f0f0;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.skills li:hover, .education li:hover {
+  background: #d0e8ff;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.8rem;
+}
+
+::-webkit-inner-spin-button
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  max-width: 1100px;
+  margin: auto;
+  gap: 2rem;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.photo-frame {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transform: rotate(-3deg);
+  display: inline-block;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-content {
+  flex: 2;
+  min-width: 280px;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.name-highlight {
+  color: #1e60f4;
+  font-weight: bold;
+}
+
+.hero-tags {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  margin: 0.3rem;
+  border-radius: 50px;
+  border: 2px solid #1e60f4;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #1e60f4;
+  background: #f0f8ff;
+}
+
+.bio-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.95rem;
+}
+
+.contact-list li {
+  margin-bottom: 0.3rem;
+}
+
+.contact-list a {
+  color: #1e60f4;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.funky-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fffbe9;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.text-stack {
+  max-width: 500px;
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #f44336;
+  line-height: 0.85;
+  margin: 0;
+  font-family: 'Impact', sans-serif;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #1e60f4;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  margin: 0.2rem 0.5rem 0 0;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.label.blue {
+  background: #9ed9f7;
+  border: 2px solid #235cb9;
+  color: #0b2d6b;
+}
+
+.label.pink {
+  background: #fdd4e5;
+  border: 2px solid #c9509d;
+  color: #8d2f75;
+}
+
+.face-badge {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+.face-badge img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.face-gif {
+  opacity: 0;
+}
+
+.face-badge:hover .face-gif {
+  opacity: 1;
+}
+
+.face-badge:hover .face-static {
+  opacity: 0;
+}
+
+.year {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+/* Header General */
+.doodle-header {
+  background: #fffbe9;
+  padding: 3rem 2rem 2rem;
+  position: relative;
+  text-align: left;
+}
+
+/* Nombre estilo doodle */
+.doodle-name {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  color: #1e60f4;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+/* Tipografía principal */
+.portfolio-title {
+  font-size: 6rem;
+  line-height: 0.85;
+  font-weight: 900;
+  font-family: 'Anton', sans-serif;
+  color: #f44336;
+  position: relative;
+  margin: 0;
+}
+
+/* Reemplazo de la O por cara */
+.animated-face {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  vertical-align: middle;
+  margin: -20px 5px 0 5px;
+  box-shadow: 10px 10px 0 #e0cdb0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.animated-face img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.face-gif {
+  opacity: 0;
+}
+
+.animated-face:hover .face-gif {
+  opacity: 1;
+}
+
+.animated-face:hover .face-static {
+  opacity: 0;
+}
+
+/* Sticker encima */
+.label-sticker {
+  background: #9ed9f7;
+  color: #0b2d6b;
+  font-weight: bold;
+  border: 2px solid #235cb9;
+  padding: 0.4rem 1rem;
+  border-radius: 16px;
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateY(-50%) rotate(-6deg);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
