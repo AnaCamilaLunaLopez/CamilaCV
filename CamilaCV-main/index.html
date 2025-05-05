@@ -1,56 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Camila Luna | Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camila Luna Portfolio</title>
+  <link rel="icon" href="Images/face.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
 
 </head>
+
+
+
 <body>
-
-  <header class="header">
-    <h1>Camila Luna</h1>
-    <p>Visual Storyteller | Educator | Maker</p>
-    <p class="contact">📧 anacamilalunalopez@gmail.com | 📱 +52 7751214657</p>
-  </header>
-
-  <section class="intro">
-    <p>I design stories that teach, inspire, and connect. With a background in design, education, and technology, I create hands-on experiences and digital narratives.</p>
-  </section>
-
-  <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>🎬 Motion Design</li>
-      <li>🧠 Content Creation</li>
-      <li>🎨 Digital Fabrication</li>
-      <li>🧩 UI/UX</li>
-      <li>🌐 Interactive Media</li>
-    </ul>
-  </section>
-
-  <section class="experience">
-    <h2>Experience</h2>
-    <div class="job">
-      <h3>MoonMakers — Co-founder (2016–Present)</h3>
-      <p>Led content strategy, introduced 12k+ students to tech, and reached 185k+ people.</p>
+  <div class="sidebar">
+    <div class="name-section">
+      <img class="greeting-gif" src="Images/Hello.gif" alt="Saludo GIF" />
+      <h1>Camila Luna</h1>
+      <div class="name-image"></div>
     </div>
-    <!-- Puedes duplicar este bloque para agregar más trabajos -->
-  </section>
+    <p>
+      Visual storyteller with a background in design, education, and technology. I create content and experiences that inspire learning through hands-on and digital media.
+    </p>
+    <div class="social-links">
+      <a href="https://www.youtube.com/@MoonMakers" target="_blank"><img src="Images/Icons/youtube.png" alt="YouTube"></a>
+      <a href="https://www.facebook.com/MoonMakersOficial" target="_blank"><img src="Images/Icons/facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/moon_makers_/" target="_blank"><img src="Images/Icons/instagram.png" alt="Instagram"></a>
+      <a href="https://www.behance.net/camila_moon" target="_blank"><img src="Images/Icons/behance.png" alt="Behance"></a>
+      <a href="https://www.linkedin.com/in/camilalunamoonmakers/" target="_blank"><img src="Images/Icons/linkedin.png" alt="LinkedIn"></a>
+    </div>
+    <div class="contact-info">
+      <strong>Email:</strong> <a href="mailto:camilaluna@email.com">camilaluna@email.com</a><br />
+      <strong>Phone:</strong> <a href="tel:+525512345678">+52 55 1234 5678</a>
+    </div>
+  </div>
 
-  <section class="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>UNAM</strong> – B.A. in Education (2023–2027)</li>
-      <li><strong>Fab Academy</strong> – Master in Digital Fabrication (2025)</li>
-    </ul>
-  </section>
+  <div class="main-wrapper">
+    <div class="content">
+      <!-- Puedes duplicar los bloques .project aquí para más proyectos -->
 
-  <footer>
-    <p>&copy; 2025 Camila Luna. Made with 💙</p>
-  </footer>
+
+       <!-- imagen + gif + link-->
+       <a href="https://youtu.be/jSebgMipZgI?feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img 
+            src="Images/Projects/Arduino.jpg" 
+            alt="Project GIF preview"
+            class="gif-preview"
+            data-static="Images/Projects/Arduino.jpg"
+            data-animated="Images/Projects/Alvik.gif"
+          />
+          <div class="overlay">Alvik - Arduino</div>
+        </div>
+      </a>
+
+       <!-- imagen + link-->
+       <a href="https://www.behance.net/gallery/175197035/Bolsa-Maker-Kit-MoonMakers" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/makerBadge.jpg" alt="Interview Cover">
+          <div class="overlay">Maker Badge</div>
+        </div>
+      </a>
+
+      <!-- imagen + link-->
+      <a href="https://www.linkedin.com/posts/papalote-museo-del-nino_conectadas-steam-niaehascreadoras-activity-7236453958251155458-3dGK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJQuywB1Ee7cnKDZG_Yn4zQWCYxUZ-20eE" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/conectadasFoto.jpg" alt="Interview Cover">
+          <div class="overlay">CONECTADAS - Interactive Museum Papalote</div>
+        </div>
+      </a>
+
+      <!-- Video + hover + link -->
+      <a href="https://fabacademy.org/2025/labs/cuenca/students/camila-luna/index.html" target="_blank" class="project-link">
+      <div class="project video-project">
+        <video muted loop preload="metadata" poster="Images/Projects/Heroshot.jpg">
+          <source src="Images/Projects/face.mp4" type="video/mp4" />
+        </video>
+                  <source src="Images/Projects/face.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay">Fab Academy - CBA MIT and Fab Foundation</div>
+      </div>
+      </a>
+
+
+ <!-- imagen + link-->
+      <a href="https://youtube.com/playlist?list=PLQ7VIOD6VJAlTMVVXrtcy0n3WVtr8qwtQ&feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/ai.jpg" alt="Interview Cover">
+          <div class="overlay">AI projects for education</div>
+        </div>
+      </a>
+     
+
+      <!-- texto del proyecto -->
+      <div class="project" onclick="openModal('MientosAgua', MientosAguaContent)">
+        <img src="Images/Projects/bannerpequeño.jpg" alt="MientosAgua">
+        <div class="overlay">Mientos al Agua - Union Europea</div>
+      </div>
+
+      <!-- imagen + gif + link-->
+      <a href="https://youtu.be/gP4L6FuyEGc?feature=shared&t=5" target="_blank" class="project-link">
+        <div class="project">
+          <img 
+            src="Images/Projects/Lego.jpg" 
+            alt="Project GIF preview"
+            class="gif-preview"
+            data-static="Images/Projects/Lego.jpg"
+            data-animated="Images/Projects/Lego.gif"
+          />
+          <div class="overlay">LEGO + Arduino IoT: DIY para Makers! - MoonMakers</div>
+        </div>
+      </a>
+      
+
+      <!-- imagen + link-->
+      <a href="https://jalisco.gob.mx/es/prensa/noticias/98968" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/talk.jpg" alt="Interview Cover">
+          <div class="overlay">Education specialis in RecreaLand - Secretariat of Public Education of Jalisco</div>
+        </div>
+      </a>
+
+
+ <!-- imagen + link-->
+ <a href="https://youtu.be/a-_34Javpd0?feature=shared" target="_blank" class="project-link">
+  <div class="project">
+    <img src="Images/Projects/forbes.jpg" alt="Interview Cover">
+    <div class="overlay">Mujeres poderosas 2019: Forbes Mexico</div>
+  </div>
+</a>
+
+   
+
+        <!-- imagen + gif + link-->
+        <a href="https://www.sciencefriday.com/educational-resources/create-a-game-using-ai/" target="_blank" class="project-link">
+          <div class="project">
+            <img 
+              src="Images/Projects/ScienceFriday.jpg" 
+              alt="Project GIF preview"
+              class="gif-preview"
+              data-static="Images/Projects/ScienceFriday.jpg"
+              data-animated="Images/Projects/AIExplorers.gif"
+            />
+            <div class="overlay">An Interactive Game Using AI - Science Friday</div>
+          </div>
+        </a>
+        
+
+        <!-- imagen + link-->
+      <a href="https://youtube.com/playlist?list=PLQ7VIOD6VJAk4mbCr6XaOENoB_1K3W1UQ&feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/christmas.jpg" alt="Interview Cover">
+          <div class="overlay">After Effects - Motion Graphics</div>
+        </div>
+      </a>
+
+       <!-- imagen + link-->
+       <a href="https://plazasesamo.com/aventureras/" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/Sesamo.jpg" alt="Interview Cover">
+          <div class="overlay">Participate in the Little Adventurers program</div>
+        </div>
+      </a>
+
+
+       <!-- imagen + link-->
+       <a href="https://youtu.be/-9yG6hhMLdQ?feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/Mfcdmx.jpg" alt="Interview Cover">
+          <div class="overlay">Maker Faire CDMX</div>
+        </div>
+      </a>   
+
+      <!-- imagen + link-->
+      <a href="https://www.hackster.io/MoonMakers/ghostbuster-pke-meter-real-moonmakers-14c33f" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/Ghostbuster.jpg" alt="Interview Cover">
+          <div class="overlay">Creation - Ghostbuster PKE Meter</div>
+        </div>
+      </a>     
+
+        <!-- imagen + link-->
+      <a href="https://youtu.be/NrLyudOuXuE?feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/Yucatan.jpeg" alt="Interview Cover">
+          <div class="overlay">Yucatan i6 -  Workshop Facilitator</div>
+        </div>
+      </a>
+    
+      <!-- imagen + link-->
+      <a href="https://youtube.com/playlist?list=PLQ7VIOD6VJAm50f7OrNsYuRNrI9At3_93&feature=shared" target="_blank" class="project-link">
+        <div class="project">
+          <img src="Images/Projects/podcast.jpg" alt="Interview Cover">
+          <div class="overlay">Podcast at Fab24 México - Livestreams</div>
+        </div>
+      </a>
+
+         <!-- imagen + link-->
+         <a href="https://makercamp.make.co/" target="_blank" class="project-link">
+          <div class="project">
+            <img src="Images/Projects/MakerCamp.jpg" alt="Interview Cover">
+            <div class="overlay">Maker Camp - Make Community</div>
+          </div>
+        </a>
+
+
+      
+      
+
+
+    </div>
+  </div>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div id="modalDescription"></div>
+    </div>
+  </div>
+
+
+   <!-- texto del proyecto -->
+
+  <script>
+    const MientosAguaContent = `
+      <div class='markdown'>
+        <h4>European Union, as part of  Flash ACT</h4> 
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FUEenMEXICO%2Fvideos%2F1021810291845094%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+        <p>
+        "Mientos al agua" a citizen science project to promote ecological awareness, With the support of the European Union, through a multidisciplinary initiative.
+        </p>
+        <img src='Images/Projects/01/1.jpg' alt='Main image'>
+        <p>
+        This project is an invitation to take action and understand the behaviors and disorders regarding our waters.
+        <br>
+        <br>
+        This project is based on the artistic gesture of encouraging citizen science and contributing to the formation of links and appropriate tools for the communities around the Santiago River and other towns in the world. How do these data and molecules relate to each other, and connect people's lives, as well as water cultures around the world?
+          </p>
+        <div class='side-image' style='margin: 2rem 0;'>
+          <img src='Images/Projects/01/2.jpg' alt='Side image'>
+          <p>Having two communities for the documentary, one in a town in Guadalajara called casa Blanca, and one in the chinampas of Mexico City.
+        </p> </div>
+        <div class='gallery'>
+          <img src='Images/Projects/01/5.jpg'>
+          <img src='Images/Projects/01/6.jpg'>
+          <img src='Images/Projects/01/8.jpg'>
+          <img src='Images/Projects/01/9.jpg'>
+          <img src='Images/Projects/01/3.jpg'>
+          <img src='Images/Projects/01/4.jpg'>
+          <img src='Images/Projects/01/7.jpg'>
+        </div>
+       
+      </div>
+    `;
+
+    
+    const MakerBadgeContent = `
+      <div class='markdown'>
+        <h2>Maker Badges</h2>
+        <p>For the Maker Faire CDMX 🇲🇽, I designed a collection of Maker Badges inspired by the classic Boy Scout badges 🤖🛠️</p>
+        <p>These badges celebrate the maker spirit and each badge features a unique icon, such as tools, gears, and our friendly Makey robot, combining vibrant colors and playful illustrations to inspire makers of all ages.</p>
+        <img src='Images/Projects/01/1.jpg' alt='Main image'>
+        <div class='side-image' style='margin: 2rem 0;'>
+          <img src='Images/Projects/01/2.jpg' alt='Side image'>
+          <p>This initiative encourages hands-on learning by awarding kids with creative, technology-inspired badges. Each badge represents a skill developed through DIY activities.</p>
+        </div>
+        <div class='gallery'>
+          <img src='Images/Projects/01/3.jpg'>
+          <img src='Images/Projects/01/4.jpg'>
+          <img src='Images/Projects/01/5.jpg'>
+        </div>
+        <p style='margin-top: 1rem;'>
+          <a href='https://www.behance.net/gallery/123456789/Maker-Badges' target='_blank'>View on Behance</a>
+        </p>
+      </div>
+    `;
+
+
+    function openModal(title, description) {
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDescription').innerHTML = description;
+      document.getElementById('projectModal').style.display = 'flex';
+    }
+    function closeModal() {
+      document.getElementById('projectModal').style.display = 'none';
+    }
+
+
+
+
+
+    document.querySelectorAll('.video-project').forEach(project => {
+  const video = project.querySelector('video');
+  
+  project.addEventListener('mouseenter', () => {
+    video.play();
+  });
+
+  project.addEventListener('mouseleave', () => {
+    video.pause();
+    video.currentTime = 0; // 🔁 Esto reinicia y muestra el poster
+    video.load(); // 🔧 fuerza a recargar el poster en algunos navegadores
+  });
+});
+
+
+
+
+
+document.querySelectorAll('.gif-preview').forEach(img => {
+  img.addEventListener('mouseenter', () => {
+    img.src = img.dataset.animated;
+  });
+  img.addEventListener('mouseleave', () => {
+    img.src = img.dataset.static;
+  });
+});
+
+
+
+  </script>
 </body>
 </html>
